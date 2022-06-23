@@ -42,7 +42,7 @@ def most_common_20_words(df: pd.DataFrame, column_name: str):
         color="Common_words",
     )
     # Save resulting plot as html format
-    fig.write_html(f"./visualization_results/common_words.html")
+    fig.write_image(f"./visualization_results/common_words.png")
 
 
 def positive_words(df: pd.DataFrame):
